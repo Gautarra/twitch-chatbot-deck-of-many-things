@@ -1,0 +1,33 @@
+{
+  "name": "twitch-chatbot-deck-of-many-things",
+  "version": "1.0.0",
+  "description": "twitch chatbot based on d&d deck of many things magic item",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gautarra/twitch-chatbot-deck-of-many-things.git"
+  },
+  "author": "gautarra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gautarra/twitch-chatbot-deck-of-many-things/issues"
+  },
+  "homepage": "https://github.com/Gautarra/twitch-chatbot-deck-of-many-things#readme",
+  "devDependencies": {
+    "@types/tmi.js": "^1.8.3",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "eslint": "^8.48.0",
+    "eslint-config-standard-with-typescript": "^39.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "tmi.js": "^1.8.5"
+  }
+}
