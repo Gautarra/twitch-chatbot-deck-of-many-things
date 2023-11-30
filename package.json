@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deck": "node .\\deckOfManyThings.js"
+    "deck": "npx tsc .\\deck-of-many-things\\deckOfManyThings.ts && node .\\deck-of-many-things\\deckOfManyThings.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Gautarra/twitch-chatbot-deck-of-many-things#readme",
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.10.1",
     "@types/tmi.js": "^1.8.3",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
     "eslint": "^8.7.0",
